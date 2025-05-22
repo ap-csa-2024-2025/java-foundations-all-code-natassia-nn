@@ -7,16 +7,20 @@ public class Input04 {
         //Edit these lines to advance the scanner
         sc.nextLine();
         System.out.println(sc.nextLine());
-
+        while (sc.nextline())
+        {
+            
+        }
         
         
         //Does this line contain "BlueBumper"?
         System.out.println(sc.findInLine("BlueBumper"));
         //Store the next two numbers as xPosition and yPosition
         //Print these positions
+        int x = sc.nextInt();
+        int y = sc.nextInt();
         
-        
-        System.out.println("X: "        +", Y: "        );
+        System.out.println("X: " + x + ", Y: " + y);
         sc.close();
     }    
 }
