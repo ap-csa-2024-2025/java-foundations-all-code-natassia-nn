@@ -7,12 +7,8 @@ public class Input04 {
         //Edit these lines to advance the scanner
         sc.nextLine();
         System.out.println(sc.nextLine());
-        while (sc.nextline())
-        {
-            
-        }
-        
-        
+        sc.nextline();
+       
         //Does this line contain "BlueBumper"?
         System.out.println(sc.findInLine("BlueBumper"));
         //Store the next two numbers as xPosition and yPosition
